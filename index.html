@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Guruprakash B - Portfolio</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Guruprakash B</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#testimonial">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="img1">
+            <div class="home-img">
+                <img src="im.jpg" alt="Profile Image">
+            </div>
+
+            <div class="home-content">
+                <h3>Hello, Myself</h3>
+                <h1>Guruprakash</h1>
+                <h3>And I'm a  <span class="multiple-text"> Web Developer</span></h3>
+                <p> Enthusiastic and motivated Software Engineer adept at building and maintaining scalable, responsive,<br> and
+                    user-centric web applications. <br>With extensive hands-on experience in Java and modern front-end
+                    technologies, I have a continuous drive to explore and learn new methodologies and tools.</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/guruprakash-babu-23m05/"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/guruprakashbabu"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:guruprakash460@gmail.com"><i class='bx bxl-gmail'></i></a>
+                </div>
+                <div>
+                    <a href="Guruprakash_resume.pdf" class="btn" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>I'm</h3>
+            <h3><span>Frontend Developer</span></h3>
+            <p>As a passionate web developer, I craft seamless, user-friendly websites with HTML, CSS, and JavaScript. 
+                <br>My mission is to turn your digital vision into reality with creative and responsive solutions! 
+            </p>
+            <div class="education-item">
+                <h2>Education</h>
+                <h3>SRM Valliammai Engineering College</h3>
+                <p>Bachelor of Engineering in Electronics and Communication Engineering <span>2020 - 2024</span></p>
+            </div>
+            <div class="education-item">
+                <h3>Vailankanni Matric Higher Secondary School - Bargur</h3>
+                <p>Higher Secondary Certificate <span>2019 - 2020</span>
+                <br>Secondary School Leaving Certificate <span>2017 - 2018</span></p>
+            </div>
+        </div>
+        <div class="about-img">
+            <img src="im.jpg" alt="About Image">
+        </div>
+        
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+    
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-code"></i>
+                <h3>Web Development</h3>
+                <p class="short-description">I possess a strong foundation in front-end development, utilizing HTML, CSS, and JavaScript to create dynamic, responsive, and accessible websites.</p>
+                <a class="btn" onclick="toggleContent('webDev')">Read More</a>
+                <div id="webDev" class="full-description" style="display:none;">
+                    <p>I possess a strong foundation in front-end development, utilizing HTML, CSS, and JavaScript to create dynamic, responsive, and accessible websites. My experience includes implementing interactive user interfaces, optimizing page performance, and ensuring cross-browser compatibility. I have worked with tools like Bootstrap, Git, and various JavaScript libraries to enhance the functionality and efficiency of my web projects.</p>
+                    <a class="btn" onclick="toggleContent('webDev')">View Less</a>
+                </div>
+            </div>
+        
+            <div class="services-box">
+                <i class="bx bx-server"></i>
+                <h3>Database Management</h3>
+                <p class="short-description">With expertise in MySQL, I have managed and optimized relational databases, ensuring data accuracy and efficiency. I am skilled in SQL queries, database schema design, indexing, and normalization.</p>
+                <a class="btn" onclick="toggleContent('databaseMgmt')">Read More</a>
+                <div id="databaseMgmt" class="full-description" style="display:none;">
+                    <p>With expertise in MySQL, I have managed and optimized relational databases, ensuring data accuracy and efficiency. I am skilled in SQL queries, database schema design, indexing, and normalization, which help in maintaining high-performance databases for web applications. My knowledge extends to database security and backup strategies to safeguard data in critical environments.</p>
+                    <a class="btn" onclick="toggleContent('databaseMgmt')">View Less</a>
+                </div>
+            </div>
+        
+            <div class="services-box">
+                <i class="bx bx-mobile"></i>
+                <h3>App Development</h3>
+                <p class="short-description">In app development, I focus on creating full-stack applications that seamlessly integrate front-end and back-end components. I work with frameworks like Spring Boot to build server-side applications, which handle RESTful APIs and MVC architectures.</p>
+                <a class="btn" onclick="toggleContent('appDev')">Read More</a>
+                <div id="appDev" class="full-description" style="display:none;">
+                    <p>In app development, I focus on creating full-stack applications that seamlessly integrate front-end and back-end components. I am proficient in designing intuitive user experiences (UI/UX) while ensuring smooth functionality. I work with frameworks like Spring Boot to build server-side applications, which handle RESTful APIs and MVC architectures, providing scalable solutions for real-world problems.</p>
+                    <a class="btn" onclick="toggleContent('appDev')">View Less</a>
+                </div>
+            </div>
+        
+            <div class="services-box">
+                <i class="bx bx-palette"></i>
+                <h3>UI/UX Design</h3>
+                <p class="short-description">I am passionate about creating visually appealing and user-friendly interfaces. My approach to UI/UX design focuses on user-centered principles, ensuring that applications are both aesthetically pleasing and easy to navigate.</p>
+                <a class="btn" onclick="toggleContent('uiUx')">Read More</a>
+                <div id="uiUx" class="full-description" style="display:none;">
+                    <p>I am passionate about creating visually appealing and user-friendly interfaces. My approach to UI/UX design focuses on user-centered principles, ensuring that applications are both aesthetically pleasing and easy to navigate. I leverage tools such as Figma, Adobe XD, and wireframing techniques to deliver engaging, intuitive designs that enhance user experiences across various devices and platforms. I work closely with developers to ensure the design vision is accurately implemented in the final product.</p>
+                    <a class="btn" onclick="toggleContent('uiUx')">View Less</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="testimonial-box">
+            <h2 class="heading">Projects</h2>
+            <div class="wrapper">
+                <div class="testimonial-item">
+                    <img src="imag2.jpg" alt="">
+                    <h2>Restaurant Website</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                    <p>Developed a dynamic restaurant website using HTML, CSS, and JavaScript.
+                    <br>Responsive design for all devices.
+                    <br>Menu display with categories and items.
+                    <br>Interactive forms for customer feedback.</p>
+                </div>
+                
+                <div class="testimonial-item">
+                    <img src="imag1.jpeg" alt="">
+                    <h2>Online Job Portal</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                    <p>Created an online job portal with Bootstrap, Java Servlet, and JSP for dynamic web features.
+                    <br>Job listing and search functionality.
+                    <br>User registration and profile management.
+                    <br>Admin panel for managing job posts.</p>
+                </div>
+        
+                <div class="testimonial-item">
+                    <img src="imag3.jpeg" alt="">
+                    <h2>Student Database Management</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                    <p>Built a student database management system using Spring Boot, Maven, and Java.
+                    <br>CRUD operations for student records.
+                    <br>Data validation and security features.
+                    <br>Reports generation and data export.
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        
+        <div id="bca">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <h2 class="heading">Contact <span>Me</span></h2>
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" name="Email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+                <input type="hidden" name="access_key" value="cf0d9c00-7978-4414-b02d-0a112e3b10f6">
+            </form>
+        </div>
+        <div id="abc">
+            <div id="asd">
+                <h3>* Java development, JSP, Servlet architecture, Spring framework.</h3>
+                <h3>* SQL, MySQL databases, NoSQL, DBMS management skills.</h3>
+                <h3>* HTML, CSS, JavaScript, ReactJS for dynamic frontends.</h3>
+                <h3>* Git version control, GitHub repositories, collaboration, code management. </h3>
+                <h3>* RESTful APIs, JSON data handling skills. </h3>
+                <h3>* Eager to learn and explore new emerging technologies. </h3>
+            </div>
+            <div id="asz">
+                <h3>I am ready to bring my skills and experience to your team. I am confident in my ability to contribute positively and make an impact. Let's work together to achieve great results. If you need someone who is dedicated, reliable, and passionate, hire me today. I'm excited about the opportunity to collaborate with you!</h3>
+                <a href="mailto:guruprakash460@gmail.com" class="btn">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/guruprakash-babu-23m05/" class="bx bxl-linkedin"></a>
+            <a href="https://github.com/guruprakashbabu" class="bx bxl-github"></a>
+            <a href="#" class="bx bxl-instagram"></a>
+            <a href="mailto:guruprakash460@gmail.com" class="bx bxl-gmail"></a>
+        </div>
+        <p class="copyright">
+            &copy; GuruPrakash - ThankYou!
+        </p>
+    </footer>
+
+    <!-- script for my service -->
+    <script>
+        function toggleContent(serviceId) {
+            var content = document.getElementById(serviceId);
+            var btn = event.target;  // Get the button clicked
+    
+            // Check if the content is currently hidden or shown
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+                btn.innerHTML = "View Less"; // Change button text to 'View Less'
+            } else {
+                content.style.display = "none";
+                btn.innerHTML = "Read More"; // Change button text to 'Read More'
+            }
+        }
+    </script>
+    <script>
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting or refreshing the page
+
+        // Display a success message when the form is submitted
+        document.getElementById('response-message').innerText = 'Your message has been sent successfully!';
+
+        // Optionally, clear the form fields after submission
+        document.getElementById('contact-form').reset();
+    });
+    </script>
+    
+    <!-- script for my service -->
+</body>
+
+</html>
